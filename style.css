@@ -42,7 +42,7 @@
 
             /* Z-index */
 
-            h1 {
+            /* h1 {
                 position: fixed;
                 top: 0px;
                 left: 0px;
@@ -53,8 +53,108 @@
                  z-index: 10;/}
                 p {
                 position: relative;
-                top: 70px;
-                left: 70px;}
-            
+                top: 70px; */
+                /* left: 70px;} */
 
-        
+                /* Floating Elements */
+
+                /* blockquote {
+                    float: right;
+                    width: 275px;
+                    font-size: 130%;
+                    font-style: italic;
+                    font-family: Georgia, Times, serif;
+                    margin: 0px 0px 10px 10px;
+                    padding: 10px;
+                    border-top: 2px solid red;
+                    border-bottom: 2px solid #574466;} */
+
+                    /* p{
+                        float: right;
+                        width: 275px;
+                        border: 5px solid black;
+                        padding: 5px;
+                        font-size:large;
+                        margin:0px 0px 20px 20px ;
+
+                    }
+             */
+             /* body {
+                width: 750px;
+                font-family: Arial, Verdana, sans-serif;
+                color: #665544;}
+                p {
+                width: 230px;
+                float: left;
+                margin: 15px;
+                padding: 5px;
+                background-color: #efefef;} */
+
+            /* floats
+        h1{
+            float: right;
+        }
+        p{
+            clear: right;
+        } */
+
+        /* .column1of2 {
+            float: left;
+            width: 300px;
+            margin: 10px; */
+        /* border: 2px solid green;
+        }
+            .column2of2 {
+            float: left;
+            width: 600px;
+            margin: 10px;
+        border: 2px solid yellow;
+        } */
+
+
+        /* Fix width layout */
+
+        /* body { */
+            /* width: 960px;
+            margin: 0 auto;}
+            #content { */
+            /* overflow: auto; */
+            /* height: 100%;}
+            #nav, #feature, #footer {
+            background-color: #efefef;
+            padding: 10px;
+            margin: 10px;}
+            .column1, .column2, .column3 {
+            background-color: #efefef; */
+            /* width: 300px;
+            float: left;
+            margin: 10px;}
+            li {
+            display: inline;
+            padding: 5px;} */
+
+
+
+
+
+            body {
+                width: 90%;
+                margin: 0 auto;}
+                #content {overflow: auto;}
+                #nav, #feature, #footer {
+                margin: 1%;}
+                .column1, .column2, .column3 {
+                width: 31.3%;
+                float: left;
+                margin: 1%;}
+                .column3 {margin-right: 0%;}
+                li {
+                display: inline;
+                padding: 0.5em;}
+                #nav, #footer {
+                background-color: #efefef;
+                padding: 0.5em 0;}
+                #feature, .article {
+                height: 10em;
+                margin-bottom: 1em;
+                background-color: #efefef;}
